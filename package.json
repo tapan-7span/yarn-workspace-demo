@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "workspaces": [
+    "apps/vite-vue",
+    "apps/nuxt-vue"
+  ],
+  "scripts": {
+    "dev": "concurrently \"yarn vite-vue dev\" \"yarn nuxt-vue dev\"",
+    "nuxt-vue": "cd apps/nuxt-vue && yarn",
+    "vite-vue": "cd apps/vite-vue && yarn"
+  },
+  "name": "demoworkspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}

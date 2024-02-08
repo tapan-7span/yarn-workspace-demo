@@ -1,0 +1,7 @@
+node_modules
+
+/apps/nuxt-vue/.nuxt
+/apps/nuxt-vue/node_modules
+
+/apps/vite-vue/.vscode
+/apps/vite-vue/node_modules
